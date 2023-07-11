@@ -1,0 +1,311 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    border: 1px solid #fff;
+    background-color: #fff;
+    padding: 20px;
+}
+.home i{
+    border: 1px solid #0d6efd;
+    border-radius: 50%;
+    background-color: #0d6efd;
+    color: #fff;
+    padding: 15px;
+    font-size: 30px;
+}
+.home h1{
+    color: #0d6efd;
+    padding: 10px;
+}
+
+.nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+}
+.nav li a{
+    display: flex;
+    color: #000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.nav li a:hover{
+    background-color: #e3e3e3;
+    color: #000;
+}
+
+
+.build{
+    background-image: linear-gradient(rgba(0,0,0,0.5), #000), url(../images/house-1477041_1280.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+    width: 100%;
+    background-attachment: fixed;
+}
+
+.bath{
+    background-image: linear-gradient(rgba(0,0,0,0.5), #000), url(../images/design-2791442_1280.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+    margin:20px ;
+    width: 100%;
+    background-attachment: fixed;
+}
+
+.room{
+    background-image: linear-gradient(rgba(0,0,0,0.5), #000), url(../images/build-a-house-4503738_1280.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+    margin:20px ;
+    width: 100%;
+    background-attachment: fixed;
+}
+.build-text{
+    text-align: center;
+    color: #fff;
+    padding-top: 100px;
+    line-height: 2;
+}
+
+.view-more{
+    text-align: center;
+}
+.view-more button{
+    border: 1px solid gold;
+    border-radius: 25px;
+    background-color: gold;
+    padding: 8px;
+    font-size: 15px;
+}
+.more{
+    margin: 10px;
+}
+.more{
+    border: 1px solid gold;
+    border-radius: 25px;
+    background-color: gold;
+    /* width: fit-content; */
+    padding: 8px;
+    font-size: 15px;
+    /* margin-left: 300px; */
+}
+button:hover{
+    background-color: #000;
+    color: #e3e3e3;
+    transition: 1s;
+    border-radius: 0;
+}
+.welcome-text{
+    color: #0d6efd;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+
+.nwes{
+    position: relative
+}
+.dream{
+    position: absolute;
+    top: 0;
+    width: 80%;
+    height: 100%;
+    text-align: center;
+}
+.ability h1{
+    margin-top: 100px;
+}
+.dream{
+    text-align: center;
+    width: 80%; 
+    color: white;
+    background: linear-gradient(rgba(17, 219, 219, 0.603), rgba(33, 138, 138, 0.664));
+    border-radius: 100%;
+    height: 300px;
+    
+}
+.nwes img{
+    border-radius: 100%;
+    width: 80%;
+    height: 300px;
+}
+
+.mail{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.design{
+    display: flex;
+    justify-content: space-around;
+}
+.recent{
+    border: 1px solid #e3e3e3;
+    background-color: #e3e3e3;
+    padding: 20px;
+    margin-top: 30px;
+}
+.view{
+    text-align: center;
+}
+.view li{
+    list-style: none;
+    color: #0d6efd;
+    font-weight: bolder;
+    font-size: 20px;
+}
+.project{
+    border: 1px solid #e3e3e3;
+    background-color: #e3e3e3;
+    padding: 20px;
+}
+.land{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+.experts{
+    border: 1px solid #fff;
+    background-color: #fff;
+    padding: 20px;
+}
+.say-text{
+    text-align: center;
+    padding: 20px;
+    line-height: 2;
+}
+.green{
+    text-align: center;
+}
+.green img{
+    width: 100px;
+    border-radius: 50%;
+    height: 90px;
+}
+.touch{
+    background-image: linear-gradient(rgba(0,0,0,0.5), #000), url(../images/architecture-1477101_1280.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+    width: 100%;
+    background-attachment: fixed;
+}
+.touch-text{
+    text-align: center;
+    padding: 30px;
+    line-height: 2;
+    color: #fff;
+    margin-top: 30px;
+}
+.touch-text i{
+    padding: 10px;
+    font-size: 25px;
+    margin-top: 30px;
+}
+.say-text h1{
+    font-size: 40px;
+    color: #0d6efd;
+}
+
+
+@media screen and (max-width:768px){
+   
+.nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.mail{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    /* margin: auto; */
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.dream{
+    text-align: center;
+    width: 70%; 
+    color: white;
+    background: linear-gradient(rgba(17, 219, 219, 0.603), rgba(33, 138, 138, 0.664));
+    border-radius: 100%;
+    height: 100%;
+    /* margin: auto; */
+}
+.nwes img{
+    border-radius: 100%;
+    width: 70%;
+    height: 100%;
+}
+.nwes{
+    margin-bottom: 15px;
+}
+.say-text h1{
+    font-size: 35px;
+}
+.dream{
+    position: absolute;
+    top: 0;
+    width: 70%;
+    height: 100%;
+    text-align: center;
+    margin-left: 44px;
+}
+.design{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.welcome-text{
+    text-align: justify;
+    font-size: 15px;
+}
+.welcome{
+    margin: 15px;
+}
+.land{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+.sale{
+    width: 100%;
+    margin-bottom: 10px;
+}
+.say-text{
+    text-align: justify;
+    padding: 20px;
+    line-height: 2;
+}
+.touch-text{
+    text-align: justify;
+}
+.touch-text i{
+    font-size: 20px;
+    text-align: center;
+}
+}
